@@ -1,6 +1,6 @@
 from utils import main
 
-file_json = 'C:\lessons\KursProject12\operations.json'
+file_json = "../operations.json"
 
 def test_load_data():
     assert len(main.load_data(file_json)) >= 0

@@ -1,7 +1,7 @@
 import json
 from datetime import datetime
 
-file_json = 'C:\lessons\KursProject12\operations.json'
+file_json = "../operations.json"
 
 def load_data(file_json) :
     '''Передача данных файла json в список'''
